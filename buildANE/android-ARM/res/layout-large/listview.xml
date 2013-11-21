@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:id="@+id/list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+  <TextView android:textSize="14sp" android:gravity="left|center" android:layout_gravity="center" android:id="@+id/ItemText" android:scaleType="fitXY" android:layout_width="fill_parent" android:layout_height="50dp" android:textColor="@color/black"/>
+  <ImageView android:scaleType="fitXY" android:src="@drawable/left" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:id="@+id/ItemImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14dp"/>
+</RelativeLayout>

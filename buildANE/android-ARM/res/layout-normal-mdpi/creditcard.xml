@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+    <LinearLayout android:id="@+id/creditlayout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp" android:orientation="horizontal">
+      <TextView android:id="@+id/sumtextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DW3_string_64" android:textSize="14sp"/>
+      <TextView android:id="@+id/sumet" android:layout_width="120dp" android:layout_height="wrap_content"/>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DW3_string_65" android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/creditdellayout" android:layout_below="@+id/creditlayout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp" android:orientation="horizontal">
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DW3_string_66" android:textSize="14sp"/>
+      <TextView android:id="@+id/bankdel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/DW3_string_67" android:textColor="@color/orange" android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/editlayout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/creditdellayout" android:orientation="vertical">
+      <LinearLayout android:id="@+id/lineone" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+        <EditText android:id="@+id/cardnum" android:layout_width="100dp" android:layout_height="wrap_content" android:hint="@string/DW3_string_68" android:textSize="13sp" android:singleLine="true" android:background="@drawable/editbg"/>
+        <EditText android:id="@+id/telphonenum" android:layout_width="100dp" android:layout_marginLeft="10dp" android:textSize="13sp" android:hint="@string/DW3_string_69" android:singleLine="true" android:layout_height="wrap_content" android:background="@drawable/editbg"/>
+      </LinearLayout>
+      <LinearLayout android:id="@+id/linetwo" android:layout_marginTop="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+        <EditText android:id="@+id/valperiod" android:layout_width="100dp" android:hint="@string/DW3_string_70" android:textSize="13sp" android:singleLine="true" android:layout_height="wrap_content" android:background="@drawable/editbg"/>
+        <EditText android:id="@+id/idennum" android:layout_width="100dp" android:layout_marginLeft="10dp" android:hint="@string/DW3_string_71" android:textSize="13sp" android:singleLine="true" android:layout_height="wrap_content" android:background="@drawable/editbg"/>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linethree" android:layout_marginTop="10dp" android:layout_below="@+id/editlayout" android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+      <ImageView android:id="@+id/eg1" android:layout_width="100dp" android:layout_height="60dp" android:background="@drawable/credit_date"/>
+      <ImageView android:id="@+id/eg2" android:layout_width="100dp" android:layout_marginLeft="10dp" android:layout_height="60dp" android:background="@drawable/credit_verify"/>
+    </LinearLayout>
+    <Button android:id="@+id/paynow" android:layout_marginTop="8dp" android:background="@drawable/paynow" android:layout_below="@+id/linethree" android:layout_height="28dp" android:layout_width="210dp"/>
+  </RelativeLayout>
+</RelativeLayout>

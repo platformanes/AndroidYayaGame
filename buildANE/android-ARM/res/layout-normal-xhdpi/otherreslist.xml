@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  <RelativeLayout android:id="@+id/headlayout" android:layout_width="fill_parent" android:layout_height="40dp" android:background="@drawable/head" android:orientation="horizontal">
+    <ImageView android:id="@+id/back" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:src="@drawable/back"/>
+    <ImageView android:id="@+id/login1" android:layout_width="66dp" android:layout_height="21dp" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:src="@drawable/centeryy"/>
+  </RelativeLayout>
+  <ListView android:id="@+id/lwotherlist" android:layout_marginTop="40dp" android:layout_centerHorizontal="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="420dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+</RelativeLayout>

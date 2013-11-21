@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  <RelativeLayout android:id="@+id/headlayout" android:layout_width="fill_parent" android:layout_height="40dp" android:background="@drawable/head" android:orientation="horizontal">
+    <ImageView android:id="@+id/back" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:src="@drawable/back"/>
+    <ImageView android:id="@+id/login1" android:layout_width="66dp" android:layout_height="21dp" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:src="@drawable/raidersgame"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@+id/alllayout" android:layout_marginTop="15dp" android:layout_centerInParent="true" android:layout_below="@+id/headlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+    <FrameLayout android:id="@+id/line1" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+      <TextView android:id="@+id/txtGameInfo" android:layout_width="300dp" android:layout_height="40dp" android:background="@drawable/itembg" android:text="@string/DW4_string_19" android:textColor="@color/black" android:gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:textSize="13sp"/>
+      <ImageView android:id="@+id/query_imei_iv" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:layout_height="wrap_content" android:layout_gravity="right|center" android:src="@drawable/left"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/line2" android:layout_marginTop="10dp" android:layout_below="@+id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+      <TextView android:id="@+id/txtInfoAc" android:layout_width="300dp" android:layout_height="40dp" android:background="@drawable/itembg" android:text="@string/DW4_string_20" android:textColor="@color/black" android:gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:textSize="13sp"/>
+      <ImageView android:id="@+id/query_imei_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_gravity="right|center" android:src="@drawable/left"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/line3" android:layout_below="@+id/line2" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+      <TextView android:id="@+id/txtGameExp" android:layout_width="300dp" android:layout_height="40dp" android:background="@drawable/itembg" android:text="@string/DW4_string_21" android:textColor="@color/black" android:gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:textSize="13sp"/>
+      <ImageView android:id="@+id/query_imei_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_gravity="right|center" android:src="@drawable/left"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/line4" android:layout_below="@+id/line3" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+      <TextView android:id="@+id/txtGameOth" android:layout_width="300dp" android:layout_height="40dp" android:background="@drawable/itembg" android:text="@string/DW4_string_22" android:textColor="@color/black" android:gravity="center_vertical" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:textSize="13sp"/>
+      <ImageView android:id="@+id/query_imei_iv" android:layout_marginRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right|center" android:src="@drawable/left"/>
+    </FrameLayout>
+  </RelativeLayout>
+</RelativeLayout>

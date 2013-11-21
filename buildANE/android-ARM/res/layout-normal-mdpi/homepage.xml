@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  <RelativeLayout android:id="@+id/headlayout" android:layout_width="fill_parent" android:layout_height="40dp" android:background="@drawable/head" android:orientation="horizontal">
+    <ImageView android:id="@+id/back" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:src="@drawable/back"/>
+    <ImageView android:id="@+id/login1" android:layout_width="66dp" android:layout_height="21dp" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:src="@drawable/centeryy"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@+id/leftrelative" android:layout_width="75dp" android:layout_height="fill_parent" android:background="@drawable/contentbg" android:layout_below="@+id/headlayout">
+    <ImageView android:id="@+id/userimg" android:layout_width="48dp" android:layout_height="48dp" android:background="@drawable/yayalogo" android:layout_centerHorizontal="true" android:layout_marginTop="15dp"/>
+    <TextView android:id="@+id/usertxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/orange" android:layout_centerHorizontal="true" android:text="@string/DW3_string_73" android:textSize="13sp" android:layout_below="@+id/userimg" android:layout_marginTop="10dp"/>
+    <TextView android:id="@+id/uservalue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/orange" android:layout_centerHorizontal="true" android:layout_below="@+id/usertxt" android:text="@string/DW_string_102" android:textSize="13sp"/>
+    <TextView android:id="@+id/timetxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/orange" android:layout_centerHorizontal="true" android:text="@string/DW3_string_74" android:textSize="13sp" android:layout_below="@+id/uservalue" android:layout_marginTop="10dp"/>
+    <TextView android:id="@+id/timevalue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/orange" android:layout_centerHorizontal="true" android:text="@string/DW_string_101" android:layout_below="@+id/timetxt" android:textSize="13sp"/>
+  </RelativeLayout>
+  <GridView android:id="@+id/gridview" android:layout_below="@+id/headlayout" android:layout_toRightOf="@+id/leftrelative" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:numColumns="1" android:scrollbars="none" android:fadingEdge="none" android:verticalSpacing="10dp" android:stretchMode="columnWidth"/>
+</RelativeLayout>

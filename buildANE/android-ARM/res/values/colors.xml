@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 半透明 -->
+    <color name="transparent">#9000</color>
+    <color name="transparentall">#00000000</color>
+    <color name="dark">#000000</color>
+    
+    <!-- 白色 -->
+    <color name="white1">#ffffffff</color>
+       
+        <!-- 橙色 -->
+    <color name="hitchdetailtitlebg">#49474A</color>
+    <color name="orange">#fff29721</color>
+    
+    <color name="textColor">#fffef8c3</color>
+    
+    <color name="gray">#ff8f8e8e</color>
+    
+    <color name="white">#fffdfdfb</color>
+    
+    <color name="bit_dark">#9d9d9d</color>
+    
+    <color name="transparent_all">#00001100</color>
+    
+    <color name="blue">#ff3277de</color>
+    
+    <color name="payment_background">#ffe5e5e5</color>
+    
+    <color name="red">#ffec1d1d</color>
+    
+    <color name="black">#ff545252</color>
+  
+    
+    <color name="gray_white">#fff0f0f0</color>
+    
+</resources>

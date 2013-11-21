@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <LinearLayout android:id="@+id/bottom" android:layout_width="fill_parent" android:layout_height="55dp" android:layout_alignParentBottom="true" android:gravity="center" android:background="@drawable/bottombg" android:orientation="horizontal">
+    <include android:id="@+id/index_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/index_tab" android:gravity="center"/>
+    <include android:id="@+id/exit1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/index_tab" android:gravity="center"/>
+    <include android:id="@+id/exit2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/index_tab" android:gravity="center"/>
+    <include android:id="@+id/exit3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/index_tab" android:gravity="center"/>
+  </LinearLayout>
+  <ViewFlipper android:id="@+id/viewflipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@+id/bottom" android:background="#FFFFFF" android:fadingEdge="none"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+  <TextView android:id="@+id/introtxt" android:layout_marginTop="10dp" android:layout_width="350dp" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:text="@string/DW3_string_72"/>
+  <GridView android:id="@+id/lwrecomprodu" android:layout_below="@+id/introtxt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:numColumns="1" android:scrollbars="none" android:fadingEdge="none" android:verticalSpacing="10dp" android:stretchMode="columnWidth"/>
+</RelativeLayout>

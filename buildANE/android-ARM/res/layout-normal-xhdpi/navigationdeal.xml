@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+  <RelativeLayout android:id="@+id/headlayout" android:layout_width="fill_parent" android:layout_height="40dp" android:background="@drawable/head" android:orientation="horizontal">
+    <ImageView android:id="@+id/back" android:layout_width="28dp" android:layout_height="28dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:src="@drawable/back"/>
+    <ImageView android:id="@+id/login1" android:layout_width="66dp" android:layout_height="21dp" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:src="@drawable/centeryy"/>
+  </RelativeLayout>
+  <HorizontalScrollView android:id="@+id/horiScroll" android:layout_width="75dp" android:layout_height="fill_parent" android:fadingEdge="none" android:layout_below="@+id/headlayout" android:background="@drawable/contentbg" android:scrollbars="none">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:orientation="vertical">
+      <ImageView android:id="@+id/movebar" android:layout_width="75dp" android:layout_height="40dp" android:background="@drawable/movebar"/>
+      <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical" android:layout_gravity="center_horizontal" android:gravity="center">
+        <TextView android:id="@+id/alldeal" android:layout_width="75dp" android:layout_height="40dp" android:gravity="center" android:textColor="@color/orange" android:textSize="13sp" android:text="@string/DW4_string_86"/>
+        <TextView android:id="@+id/successdeal" android:layout_width="75dp" android:layout_height="40dp" android:gravity="center" android:textSize="13sp" android:textColor="@color/orange" android:text="@string/DW4_string_87"/>
+        <TextView android:id="@+id/failuredeal" android:layout_width="75dp" android:layout_height="40dp" android:gravity="center" android:textSize="13sp" android:textColor="@color/orange" android:text="@string/DW4_string_88"/>
+      </LinearLayout>
+    </FrameLayout>
+  </HorizontalScrollView>
+  <android.support.v4.view.ViewPager android:id="@+id/vPager_Sc" android:layout_toRightOf="@+id/horiScroll" android:layout_below="@+id/headlayout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:descendantFocusability="blocksDescendants" android:background="@drawable/itembg" android:orientation="horizontal" xmlns:android="http://schemas.android.com/apk/res/android">
+  <ImageView android:id="@+id/ivimage" android:layout_width="66dp" android:layout_height="66dp" android:layout_marginLeft="10dp" android:layout_centerVertical="true" android:focusable="false" android:src="@drawable/yayalogo"/>
+  <LinearLayout android:id="@+id/line1" android:layout_toRightOf="@+id/ivimage" android:layout_marginLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginTop="12dp" android:orientation="vertical">
+    <TextView android:id="@+id/txtTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="15sp" android:text="@string/DW4_string_23" android:textColor="@color/black" android:textStyle="bold" android:gravity="center"/>
+    <LinearLayout android:layout_width="150dp" android:layout_height="wrap_content" android:orientation="horizontal">
+      <TextView android:id="@+id/txtStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:text="@string/DW4_string_24" android:textColor="@color/bit_dark" android:textStyle="bold" android:gravity="center"/>
+      <TextView android:id="@+id/txtStyleCon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:text="@string/DW4_string_25" android:textColor="@color/bit_dark" android:textStyle="bold" android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+      <TextView android:id="@+id/txtSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:text="@string/DW4_string_26" android:textColor="@color/bit_dark" android:textStyle="bold" android:gravity="center"/>
+      <TextView android:id="@+id/txtSizeCon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="12sp" android:text="@string/DW_string_105" android:textColor="@color/bit_dark" android:textStyle="bold" android:gravity="center"/>
+    </LinearLayout>
+  </LinearLayout>
+  <ImageButton android:id="@+id/download" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_width="66dp" android:layout_height="66dp" android:focusable="false" android:background="@drawable/btn_down"/>
+</RelativeLayout>

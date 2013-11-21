@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout android:id="@+id/main" android:layout_width="fill_parent" android:background="@drawable/itembg" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+  <ImageView android:id="@+id/order_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginLeft="5dp" android:background="@drawable/yayalogo"/>
+  <RelativeLayout android:id="@+id/list_child_middle_linear" android:layout_marginLeft="10dp" android:layout_centerVertical="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/order_type_icon" android:gravity="center" android:paddingBottom="3dp" android:paddingTop="3dp">
+    <RelativeLayout android:id="@+id/time" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <TextView android:id="@+id/list_text_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:text="@string/DW3_string_59" android:textColor="@color/gray"/>
+      <TextView android:id="@+id/list_text_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:textSize="12sp" android:layout_alignParentRight="true" android:layout_toRightOf="@+id/list_text_address" android:text="@string/DW_string_100" android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/ordernum" android:layout_below="@+id/time" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <TextView android:id="@+id/list_text_content" android:layout_width="60dp" android:layout_height="wrap_content" android:layout_alignLeft="@+id/list_text_address" android:ellipsize="end" android:singleLine="true" android:layout_alignParentLeft="true" android:text="@string/DW3_string_60" android:textColor="@color/gray"/>
+      <TextView android:id="@+id/list_text_time1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/list_text_status" android:layout_toRightOf="@+id/list_text_content" android:textSize="12sp" android:layout_alignParentRight="true" android:text="@string/DW_string_100" android:textColor="@color/gray"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/status" android:layout_below="@+id/ordernum" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <TextView android:id="@+id/list_text_personname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignLeft="@+id/list_text_address" android:singleLine="true" android:text="@string/DW3_string_61" android:textColor="@color/gray"/>
+      <TextView android:id="@+id/list_text_time2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_toRightOf="@+id/list_text_personname" android:textSize="12sp" android:text="@string/DW_string_100"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/way" android:layout_below="@+id/status" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <TextView android:id="@+id/list_text_personname2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignLeft="@+id/list_text_address" android:text="@string/DW3_string_62" android:textColor="@color/gray"/>
+      <TextView android:id="@+id/list_text_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/list_text_personname2" android:textSize="12sp" android:layout_alignParentRight="true" android:text="@string/DW_string_100" android:textColor="@color/gray"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/cash" android:layout_below="@+id/way" android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+      <TextView android:id="@+id/list_text_personname1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/list_text_address" android:singleLine="true" android:text="@string/DW3_string_63" android:layout_alignParentLeft="true" android:textColor="@color/gray"/>
+      <TextView android:id="@+id/list_text_time3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/list_text_time" android:layout_toRightOf="@+id/list_text_personname1" android:textSize="12sp" android:layout_alignParentRight="true" android:text="@string/DW_string_100"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/list_image_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginLeft="2dp" android:layout_marginRight="4dp" android:src="@drawable/more"/>
+  </RelativeLayout>
+</RelativeLayout>
