@@ -10,6 +10,8 @@
 ## 编写ANE过程
 
 >  参照我博客的教程[传送门](http://www.shadowkong.com/archives/1090)
+>
+> 参照BulidANE文件夹下的命令编译
 
 ## 打包APK过程
 
